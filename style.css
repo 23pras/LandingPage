@@ -1,0 +1,296 @@
+body{
+    display: block;
+    flex: 1;
+    margin: 0px;
+}
+
+.secfirst{
+    background-color: #1f2937;
+    margin: 0px;
+    font-family: Arvo;
+    display: block;
+}
+.navbar{
+    font-family: monospace;
+    background: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    margin: auto;
+    width: 80%;
+}
+.logo{
+
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+    font-family: Arvo;
+
+}
+
+.right{
+    font-size: 18px;
+    color: white;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 0px;
+    font-family: Arvo;
+
+}
+
+.links{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    margin-right: 100px;
+}
+
+a{
+    color: white;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arvo;
+}
+
+.text{
+    flex-basis: 400px;
+    display: block;
+    width: 35%;
+    margin: 0px;
+    font-family: Arvo;
+    color: white;
+}
+
+h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin: 0px;
+    font-family: Arvo;
+}
+
+p{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 20px;
+    margin-left: 0px;
+    font-family: Arvo;
+    display: block;
+
+}
+    
+.signup{
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    
+    border: none;
+    background: #3882f6;
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 0px;
+    font-family: Arvo;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+.picture{
+    width:500px;
+    margin: 0px;
+    font-family: Arvo;
+    display: block;
+}
+.img1{
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    font-family: Arvo;
+}
+
+.sectwo{
+    background-color: white;
+    margin: auto;
+    font-family: Arvo;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 500px;
+}
+
+.secheaddiv{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    font-family: Arvo;
+    display: block;
+    margin: 0px auto;
+}
+
+.span{
+    margin: 0px;
+    font-family: Arvo;
+}
+
+.fourwinner{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px;
+    font-family: Arvo;
+}
+
+
+.winnerpicture{
+    margin: 0px;
+    font-family: Arvo;
+    display: block;
+    width: 200px;
+}
+
+.img2{
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    font-family: Arvo;
+}
+
+.imgpara{
+    margin: 0px;
+    font-family: Arvo;
+    display: block;
+    color: black;
+}
+
+.secthree{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    font-family: Arvo;
+    background-color: #e5e7eb;
+}
+
+.textbox{
+    display: block;
+    width: 50%;
+    margin: 0px;
+    font-family: Arvo;
+}
+
+.paratext{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    opacity: 0.6;
+    margin: 0px;
+    font-family: Arvo;
+    
+}
+
+.name{
+    float: right;
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 0px;
+    font-family: Arvo;
+}
+
+.secfour{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arvo;
+}
+
+.bluebox{
+    display: flex;
+    background-color: #3883f6;
+    border-radius: 10px;
+    margin: 0px;
+    font-family: Arvo;
+}
+
+.lefttext{
+    display: flex;
+    flex-direction: column;
+    background-color: #3883f6;
+    border-radius: 10px;
+    margin: 50px;
+    font-family: Arvo;
+
+}
+
+.strong{
+    color: white;
+    font-size: 24px;
+    margin: 0px;
+    font-family: Arvo;
+    font-weight: bold;
+}
+
+.paraclass{
+    color: white;
+    font-size: 16px;
+    margin: 0px;
+    font-family: Arvo;
+}
+
+
+.joinus{
+    background-color: #3883f6;
+    border-radius: 10px;
+    display: flex;
+    margin: 50px;
+    font-family: Arvo;
+
+}
+
+.sign-btn{
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 25px;
+}
+
+.footclass{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #1f2937;
+    margin: 0px;
+    font-family: Arvo;
+
+}
+
+.spanclass{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 20px;
+    margin: 0px;
+    font-family: Arvo;
+}
